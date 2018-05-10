@@ -1,0 +1,155 @@
+.barrasuperior{
+	position: fixed;
+	width:100%;
+	background-image:url("../img/vector-yellow-abstract-background.jpg");
+	background-position:center;
+	background-size:100%;
+	height:140px;
+	box-shadow:0px 8px 5px -5px black;
+	clear:both;
+	z-index:100;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.barranavegacion {
+	display:flex;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:box;
+}
+
+.main {
+	position:absolute;
+	top:90px;
+	margin:20px;
+	left:15%;
+	text-decoration:none;
+    color:black;
+}
+
+.main:hover {
+    color:red;
+}
+
+.products {
+	position:absolute;
+	top:90px;
+	margin:20px;
+	left:50%;
+}
+
+.contact {
+	position:absolute;
+	top:90px;
+	margin:20px;
+	right:15%;
+}
+
+.divheader {
+	display:flex;
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-moz-box;
+	display:-ms-flexbox;
+	display:box;
+}
+
+.logo {
+	width:80px;
+	height:80px;
+	position:absolute;
+	margin:20px;
+	top:5px;
+}
+
+.titleheader {
+	position:absolute;
+	top:38px;
+	left:120px;
+	font-family:'Helvetica';
+	font-style:Helvetica;
+	font-weight:bold;
+	color:white;
+	text-shadow:-2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.typesearch {
+	height:30px;
+	position:absolute;
+	top:50px;
+	right:140px;
+}
+
+.searchbutton {
+	height:30px;
+	position:absolute;
+	top:50px;
+	right:80px;
+}
+
+.chango {
+	position:absolute;
+	right:20px;
+	top:40px;
+}
+
+#cuerpo {
+	background-image:url("../img/IMG_53560.jpg");
+	background-repeat:no-repeat;
+	width:100%;
+	background-size:cover;
+	height:100%;
+}
+
+.wrappertitle {
+	position:absolute;
+	top:200px;
+	left:40%;
+	font-family:'Helvetica';
+	font-style:Helvetica;
+	font-weight:bold;
+	color:white;
+	font-size:30px;
+	text-shadow:-2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+
+.imagenesremeras {
+	padding-left:8px;
+	width:300px;
+	height:300px;
+}
+
+.wrapper {
+	display:grid;
+	padding:10%;
+	padding-top:330px;
+	grid-gap:300px;
+	grid-template-columns:320px 320px 320px;
+	grid-template-rows:380px;
+}
+
+.remera {
+	border-radius:5px;
+	box-shadow:-5px -5px 4px #000, 5px 5px 4px #000, -5px 5px 4px #000, 5px -5px 4px #000;
+}
+
+.buybutton {
+	margin-left:42%;
+	text-align:center;
+	font-family:'Helvetica';
+	background-color:green;
+	border:none;
+	border-radius:10%;
+	padding:2%;
+	color:white;
+}
+
+.buybutton:hover {
+	color:orange;
+}
